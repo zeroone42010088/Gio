@@ -1,7 +1,6 @@
-/* Здесь будут храниться стили нашего сайта */
-body {
-    background-color: #dddddd;
+.body {
+	margin: 0;
 }
-h1 {
-	color:red
+.header {
+	background-color: #3a7dfd;
 }
