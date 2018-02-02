@@ -1,1 +1,7 @@
 /* Здесь будут храниться стили нашего сайта */
+body {
+    background-color: #dddddd;
+}
+h1 {
+	color:red
+}
