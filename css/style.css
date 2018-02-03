@@ -61,12 +61,7 @@ header small {
   color: #072b6f;
   margin-bottom: 10px;
 }
-.portfolio-subtitle {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  color: #7bb9ff;
-}
+
 .portfolio-title, .portfolio-subtitle {
 	text-align: center;
 }
@@ -82,14 +77,22 @@ font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
 }
-.portfolio-block p {
-font-size: 14px;
-color: #8f8f8f;
-font-weight: 400;
+
+
+.portfolio-subtitle {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #7bb9ff;
 }
-.portfolio-block a {
-color: #072b6f;
+.portfolio-text {
+color: #8f8f8f;
 font-size: 14px;
 font-weight: 400;
 text-decoration: underline;
+}
+/*Оформление подвала*/
+footer {
+	background-color: #3a7dfd;
+	color:#fff;
 }
