@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family:'Roboto';
 	font-size: 18px;
+	overflow-x:hidden;
 }
 img {
 	max-width: 100%;
@@ -24,7 +25,9 @@ header {
 .header-subtitle {	
 	margin-top: 20px;
 }
-.header-button {  
+.header-button {
+  display: inline-block;  
+  text-decoration: none;
   box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
   border-radius: 50px;
   background-color: #ffffff;  
@@ -33,7 +36,14 @@ header {
   font-weight: 700;  
   padding: 17px 55px;
   margin-top: 33px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
+..header-button:hover {
+	box-shadow:none;
+
+} 
 header small {
 	display: block;
 	font-size: 12px;
@@ -121,6 +131,7 @@ footer .author {
 }
 .footer-button {
 	display: inline-block;
+	text-decoration: none;
 	border-radius: 24px;
 	border: 1px solid #ffffff;
 	background-color: transparent;
@@ -156,7 +167,14 @@ footer .author {
  .footer-button {
  	font-size: 14px;
  	padding: 8px 35px;
+ 	-webkit-transition:0.2s;
+ 	-o-transition:0.2s;
+ 	transition:0.2s;
  }
+  .footer-button:hover {
+  	background-color: #fff;
+  	color: #3a7dfd;
+  }
 }
 @media (max-width:768px) {
 	.portfolio-col-1 {
