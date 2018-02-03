@@ -128,3 +128,8 @@ footer .author {
 	font-size: 18px;
 	padding: 12px 40px;
 }
+@media (max-width:1200px) {
+  .header-pretitle {	
+	margin-top: 60px;
+}	
+}
