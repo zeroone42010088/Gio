@@ -3,6 +3,9 @@ body {
 	font-family:'Roboto';
 	font-size: 18px;
 }
+img {
+	max-width: 100%;
+}
 header {
 	padding-top: 59px;
 	background-color: #3a7dfd;
@@ -60,9 +63,33 @@ header small {
 }
 .portfolio-subtitle {
   margin-top: 10px;
+  margin-bottom: 30px;
   font-size: 14px;
   color: #7bb9ff;
 }
 .portfolio-title, .portfolio-subtitle {
 	text-align: center;
+}
+.portfolio-col-1 {
+	padding-left: 50px;	
+}
+.portfolio-col-2 {	
+	padding-right: 50px;
+}
+.portfolio-block h3 {
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.portfolio-block p {
+font-size: 14px;
+color: #8f8f8f;
+font-weight: 400;
+}
+.portfolio-block a {
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
 }
