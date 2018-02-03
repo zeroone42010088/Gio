@@ -44,4 +44,25 @@ header small {
 /* Секция портфолио */
 .portfolio {
 	background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-block {
+	background-color: #fff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+}
+.portfolio-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #072b6f;
+  margin-bottom: 10px;
+}
+.portfolio-subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #7bb9ff;
+}
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
 }
