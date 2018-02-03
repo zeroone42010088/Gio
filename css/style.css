@@ -1,8 +1,47 @@
 body {
 	margin: 0;
-	font-family:;
+	font-family:'Roboto';
+	font-size: 18px;
 }
 header {
+	padding-top: 59px;
 	background-color: #3a7dfd;
 	color: #fff;
+	padding-bottom: 22px;
+}
+.header-pretitle {	
+	margin-top: 102px;
+}
+.header-title {  
+    font-size: 48px;  
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-top: 21px;
+}
+.header-subtitle {	
+	margin-top: 20px;
+}
+.header-button {  
+  box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+  border-radius: 50px;
+  background-color: #ffffff;  
+  color: #072b6f;
+  font-size: 18px;
+  font-weight: 700;  
+  padding: 17px 55px;
+  margin-top: 33px;
+}
+header small {
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 9px;
+}
+.header-button-block {
+	max-width: 210px;
+}
+/* Секция портфолио */
+.portfolio {
+	background-color: #dddddd;
 }
